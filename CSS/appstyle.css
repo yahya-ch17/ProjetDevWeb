@@ -33,7 +33,7 @@ section{
 iframe{
     height: 100%;
     width: 100%;
-    display: grid;
+    display: block;
 }
 main{
     display: flex;
