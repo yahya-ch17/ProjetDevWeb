@@ -4,7 +4,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height:30%;
+    height:10%;
 }
 img{
     height: 100px;
@@ -18,7 +18,7 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     float: left;
-    width: 30%;
+    width: 10%;
     height:100%;
 }
 
@@ -26,7 +26,7 @@ nav{
 section{
     display: flex;
     height:100%;
-    width: 70%;
+    width: 90%;
 }
 #pl{
     height: 275px;
@@ -41,12 +41,12 @@ iframe{
 main{
     display: flex;
     justify-content: space-between;
-    height: 50%;
+    height: 80%;
 }
 footer{
     display: flex;
     justify-content: space-around;
-    height: 20%;
+    height: 10%;
 }
 #img{
     height: 75px;
