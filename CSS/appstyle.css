@@ -1,9 +1,10 @@
 *{margin: 0; padding: 0;}
-body{background: linear-gradient(90deg,rgba(0, 0, 0, 1) 19%, rgba(0, 0, 0, 1) 15%, rgba(110, 10, 10, 1) 67%, rgba(163, 133, 0, 1) 100%);}
+body{background: linear-gradient(90deg,rgba(0, 0, 0, 1) 19%, rgba(0, 0, 0, 1) 15%, rgba(110, 10, 10, 1) 67%, rgba(163, 133, 0, 1) 100%);height:100vh;weight:100vw;}
 header{
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    height:30%;
 }
 img{
     height: 100px;
@@ -17,14 +18,15 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     float: left;
-    width: 250px;
+    width: 30%;
+    height:100%;
 }
 
 
 section{
     display: flex;
     height:100%;
-    width: 100%;
+    width: 70%;
 }
 #pl{
     height: 275px;
@@ -39,12 +41,12 @@ iframe{
 main{
     display: flex;
     justify-content: space-between;
-    height: 450px;
+    height: 50%;
 }
 footer{
     display: flex;
     justify-content: space-around;
-    height: 146px;
+    height: 20%;
 }
 #img{
     height: 75px;
