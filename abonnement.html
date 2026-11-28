@@ -34,6 +34,13 @@
                 }
             }
         }
+        function tout2(){
+            if((document.getElementById("ch1").checked==true)&&(document.getElementById("ch2").checked==true)){
+                document.getElementById("ch3").checked=true
+            }
+            else{
+                document.getElementById("ch3").checked=false
+            }
         function tout(){
             if(document.getElementById("ch3").checked==true){
                 document.getElementById("ch1").checked=true
@@ -42,12 +49,7 @@
             else{
                 document.getElementById("ch1").checked=false
                 document.getElementById("ch2").checked=false
-                if((document.getElementById("ch1").checked==true)&&(document.getElementById("ch2").checked==true)){
-                    document.getElementById("ch3").checked=true
-                }
-                else{
-                    document.getElementById("ch3").checked=false
-                }
+                
             }
             active()
         }
@@ -115,8 +117,8 @@
                     <option value="Tribune Centrale">Tribune Centrale (950DT)</option>
                 </select>
             </div>
-            <input type="checkbox" name="" id="ch1" onclick="active()" onclick="tout()"><label for="" class="form-label">Accepter les conditions </label><br>
-            <input type="checkbox" name="" id="ch2" onclick="tout()"><label for="" class="form-label">Recevoir des emails</label> 
+            <input type="checkbox" name="" id="ch1" onclick="active()" onclick="tout2()"><label for="" class="form-label">Accepter les conditions </label><br>
+            <input type="checkbox" name="" id="ch2" onclick="tout2()"><label for="" class="form-label">Recevoir des emails</label> 
             <hr>
             <input type="checkbox" name="" id="ch3" onclick="tout()"><label for="" class="form-label">Cocher tout</label>
             <div class="d-flex gap-2"><button type="button" id="bts" class="btn btn-success" onclick="enregistrer()" disabled>Enregistrer</button><input type="reset" value="Annuler" class="btn btn-danger"></div>
